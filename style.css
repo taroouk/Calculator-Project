@@ -58,6 +58,8 @@ input::placeholder{
     color: #ffffffda;
 }
 #bottons{
+    width: 100%;
+    min-width: 320px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 12px;
