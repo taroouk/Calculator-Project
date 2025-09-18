@@ -125,5 +125,16 @@ button:hover{
         flex-direction: row;
         justify-content: center;
     }
+    .calculator{
+        min-width: 300px;
+        max-width: 400px;
+        height: 625px;
+        border: 1px solid #9eb43a46;
+        padding: 20px;
+        margin: auto;
+        border-radius: 20px;
+        background: transparent;
+        box-shadow: 0px 3px 12px #ceee418f;
+    }
 }
 
