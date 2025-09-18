@@ -7,32 +7,28 @@
     font-family: 'Epunda Slab', serif;
 }
 
-html body{
+body{
     width: 100%;
-    min-width: 375px;
-    height: 100%;
-    padding: 0;
-    margin: 0;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: no-repeat linear-gradient(135deg, #0a0a0a, #6c7c256c);
+    background: fixed linear-gradient(135deg, #0a0a0a, #6c7c256c);
 }
 
 .calculator{
-    width: 100%;
-    min-width: 375px;
+    width: 415px;
+    height: 625px;
     border: 1px solid #9eb43a46;
     padding: 20px;
-    margin: 0 auto;
-    gap: 12px;
+    margin: auto;
     border-radius: 20px;
     background: transparent;
     box-shadow: 0px 3px 12px #ceee418f;
 }
 
 textarea{
-    width: 310px;
+    width: 330px;
     min-height: 100px;
     max-width: 330px;
     border: none;
@@ -55,13 +51,7 @@ textarea{
 input::placeholder{
     color: #ffffffda;
 }
-.operators{
-    min-width: 310px;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 12px;
-}
+
 button{
     width: 70px;
     height: 70px;
@@ -95,9 +85,3 @@ button:hover{
 .operator{ 
     color: #ff7300;
 }
-
-/* @media (min-width: 481px) {
-  .calculator { padding: 28px; }
-  .button { grid-template-columns: repeat(4, 1fr); gap: 12px; }
-} */
- 
