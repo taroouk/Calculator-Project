@@ -58,7 +58,7 @@ input::placeholder{
     color: #ffffffda;
 }
 .operators{
-    min-width: 375px;
+    min-width: 310px;
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
