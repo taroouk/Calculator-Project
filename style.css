@@ -17,7 +17,8 @@ body{
 }
 
 .calculator{
-    width: 415px;
+    min-width: 315px;
+    max-width: 415px;
     height: 625px;
     border: 1px solid #9eb43a46;
     padding: 20px;
