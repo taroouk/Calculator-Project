@@ -86,3 +86,39 @@ button:hover{
 .operator{ 
     color: #ff7300;
 }
+
+@media (max-width: 600px) {
+    textarea{
+        width: 300px;
+        min-height: 100px;
+        max-width: 300px;
+        border: none;
+        border-radius: 15px;
+        padding: 25px;
+        margin: 20px;
+        background: transparent;
+        box-shadow: 0px 3px 15px #ceee4115;
+        font-size: 20px;
+        text-align: right;
+        cursor: pointer;
+        color: #ffffff;
+        word-wrap: break-word;
+        white-space: normal;
+        overflow-wrap: break-word;
+        resize: none;
+    }
+    button{
+        width: 60px;
+        height: 60px;
+        margin: 10px;
+        border: none;
+        border-radius: 50%;
+        font-size: 20px;
+        cursor: pointer;
+        box-shadow: -5px -5px 15px #ceee415b;
+        background: transparent;
+        color: #ffffff;
+        transition: all 0.3s ease;
+    }
+}
+
