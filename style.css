@@ -89,8 +89,8 @@ button:hover{
     color: #ff7300;
 }
 
-@media (min-width: 481px) {
+/* @media (min-width: 481px) {
   .calculator { padding: 28px; }
   .button { grid-template-columns: repeat(4, 1fr); gap: 12px; }
-}
+} */
  
