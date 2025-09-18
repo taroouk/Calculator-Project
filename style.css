@@ -58,8 +58,8 @@ input::placeholder{
     color: #ffffffda;
 }
 .operators{
-    width: 100%;
     min-width: 375px;
+    margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 12px;
