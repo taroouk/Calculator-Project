@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Epunda+Slab:ital,wght@0,300..900;1,300..900&family=Story+Script&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Epunda Slab', serif;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: fixed linear-gradient(135deg, #0a0a0a, #6c7c256c);
+}
+
+.calculator{
+    width: 415px;
+    height: 625px;
+    border: 1px solid #9eb43a46;
+    padding: 20px;
+    margin: auto;
+    border-radius: 20px;
+    background: transparent;
+    box-shadow: 0px 3px 12px #ceee418f;
+}
+
+textarea{
+    width: 330px;
+    min-height: 100px;
+    max-width: 330px;
+    border: none;
+    border-radius: 15px;
+    padding: 25px;
+    margin: 20px;
+    background: transparent;
+    box-shadow: 0px 3px 15px #ceee4115;
+    font-size: 20px;
+    text-align: right;
+    cursor: pointer;
+    color: #ffffff;
+    word-wrap: break-word;
+    white-space: normal;
+    overflow-wrap: break-word;
+    resize: none;
+
+}
+
+input::placeholder{
+    color: #ffffffda;
+}
+
+button{
+    width: 70px;
+    height: 70px;
+    margin: 10px;
+    border: none;
+    border-radius: 50%;
+    font-size: 25px;
+    cursor: pointer;
+    box-shadow: -5px -5px 15px #ceee415b;
+    background: transparent;
+    color: #ffffff;
+    transition: all 0.3s ease;
+}
+button:hover{
+    box-shadow: inset -5px -5px 15px #ceee415b;
+    background: #9eb43a46;
+    transform: scale(1.2);
+}
+
+.equal{
+    background-color: #fb7c14;
+    box-shadow: inset -5px -5px 15px #ceee415b;
+}
+
+.equal:hover{
+    box-shadow: inset -5px -5px 15px #ceee415b;
+    background-color: #fb7c14;
+    transform: scale(1.2);
+}
+
+.operator{ 
+    color: #ff7300;
+}
+
+
+ 
