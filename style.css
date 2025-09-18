@@ -34,7 +34,7 @@ html body{
 }
 
 textarea{
-    width: 330px;
+    width: 310px;
     min-height: 100px;
     max-width: 330px;
     border: none;
@@ -57,7 +57,11 @@ textarea{
 input::placeholder{
     color: #ffffffda;
 }
-
+#bottons{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+}
 button{
     width: 70px;
     height: 70px;
