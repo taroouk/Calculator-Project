@@ -8,7 +8,8 @@
 }
 
 html body{
-    width: auto;
+    width: 100%;
+    min-width: 320px;
     height: auto;
     padding: 0;
     margin: 0;
@@ -19,8 +20,8 @@ html body{
 }
 
 .calculator{
-    max-width: 480px;
-    height: 100%;
+    width: 100%;
+    min-width: 320px;
     border: 1px solid #9eb43a46;
     padding: 20px;
     margin: 0 auto;
