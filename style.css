@@ -75,6 +75,7 @@ button:hover{
 .equal{
     background-color: #fb7c14;
     box-shadow: inset -5px -5px 15px #ceee415b;
+    color: #0a0a0a;
 }
 
 .equal:hover{
@@ -84,7 +85,26 @@ button:hover{
 }
 
 .operator{ 
-    color: #ff7300;
+    background-color: #fbf314b4;
+    box-shadow: inset -5px -5px 15px #ceee415b;
+    color: #0a0a0a;
+}
+
+.operator:hover{
+    box-shadow: inset -5px -5px 15px #ceee415b;
+    background-color: #fbf314b4;
+    transform: scale(1.2);
+}
+.operator2{
+    background-color: #fab801e8;
+    box-shadow: inset -5px -5px 15px #ceee415b;
+    color: #0a0a0a;
+}
+
+.operator2:hover{
+    box-shadow: inset -5px -5px 15px #ceee415b;
+    background-color: #fab801e8;
+    transform: scale(1.2);
 }
 
 @media (max-width: 600px){
