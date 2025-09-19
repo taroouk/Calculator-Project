@@ -116,7 +116,7 @@ button:hover{
         display: flex;
         justify-content: center;
         align-items: center;
-        background: no-repeat linear-gradient(135deg, #0a0a0a, #6c7c256c);
+        background: no-repeat linear-gradient(135deg, #0a0a0a, #39dfdaac);
     }
     textarea{
         min-height: 100px;
@@ -125,7 +125,7 @@ button:hover{
         border-radius: 15px;
         padding: 25px;
         margin: 20px;
-        background: transparent;
+        background-color: #fb7c1467;
         box-shadow: 0px 3px 15px #ceee4115;
         font-size: 20px;
         text-align: right;
@@ -144,9 +144,9 @@ button:hover{
         border-radius: 50%;
         font-size: 20px;
         cursor: pointer;
-        box-shadow: -5px -5px 15px #ceee415b;
+        box-shadow: -5px -5px 20px #414141c6;
         background: transparent;
-        color: #ffffff;
+        color: #040404;
         transition: all 0.3s ease;
     }
     .buttons{
@@ -158,12 +158,12 @@ button:hover{
         min-width: 300px;
         max-width: 400px;
         height: 625px;
-        border: 1px solid #9eb43a46;
+        border: 1px solid #25b3b5c8;
         padding: 20px;
         margin: auto;
         border-radius: 20px;
-        background: transparent;
-        box-shadow: 0px 3px 12px #ceee418f;
+        background-color: #25b3b577;
+        box-shadow: 0px 3px 12px #000000af;
     }
 }
 
