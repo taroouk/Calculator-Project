@@ -13,19 +13,19 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: no-repeat linear-gradient(135deg, #0a0a0a, #6c7c256c);
+    background: no-repeat linear-gradient(135deg, #0a0a0a, #39dfdaac);
 }
 
 .calculator{
     min-width: 310px;
     max-width: 415px;
     height: 625px;
-    border: 1px solid #9eb43a46;
+    border: 1px solid #25b3b5c8;
     padding: 20px;
     margin: auto;
     border-radius: 20px;
-    background: transparent;
-    box-shadow: 0px 3px 12px #ceee418f;
+    background-color: #25b3b577;
+    box-shadow: 0px 3px 12px #000000af;
 }
 
 textarea{
@@ -36,7 +36,7 @@ textarea{
     border-radius: 15px;
     padding: 25px;
     margin: 20px;
-    background: transparent;
+    background-color: #fb7c1467;
     box-shadow: 0px 3px 15px #ceee4115;
     font-size: 20px;
     text-align: right;
@@ -51,6 +51,8 @@ textarea{
 
 input::placeholder{
     color: #ffffffda;
+    background-color: #fb7c1482;
+   
 }
 
 button{
@@ -61,14 +63,14 @@ button{
     border-radius: 50%;
     font-size: 25px;
     cursor: pointer;
-    box-shadow: -5px -5px 15px #ceee415b;
+    box-shadow: -5px -5px 20px #414141c6;
     background: transparent;
-    color: #ffffff;
+    color: #040404;
     transition: all 0.3s ease;
 }
 button:hover{
-    box-shadow: inset -5px -5px 15px #ceee415b;
-    background: #9eb43a46;
+    box-shadow: inset -5px -5px 15px #414141c6;
+    background: transparent;
     transform: scale(1.2);
 }
 
